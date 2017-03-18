@@ -1,4 +1,4 @@
 language: python
-rvm:
+:
  - 3.5
-script: python3 test_rpn.py
+script: test_rpn.py
