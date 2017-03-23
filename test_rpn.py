@@ -8,5 +8,5 @@ class TestBasics(unittest.TestCase):
 		result = rpn.calculate('5 3 -')
 		self.assertEqual(2, result)
 	def test_exponent(self):
-		result = rpn.calculate('3 2 ^')
-		self.assertEqual(9, result)
+		result = rpn.calculate('5 2 ^')
+		self.assertEqual(25, result)
